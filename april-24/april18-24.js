@@ -47,3 +47,9 @@ console.log(maxQueens(1)) // expect 1
 console.log(maxQueens(2)) // expect 0
 console.log(maxQueens(3)) // expect 0
 console.log(maxQueens(4)) // expect 2
+console.log(maxQueens(5)) // expect 10
+console.log(maxQueens(6)) // expect 4
+console.log(maxQueens(7)) // expect 40
+console.log(maxQueens(8)) // expect 92
+console.log(maxQueens(9)) // expect 352
+console.log(maxQueens(10)) // expect 724
