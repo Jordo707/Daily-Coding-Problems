@@ -4,8 +4,6 @@ Given a binary tree, return the level of the tree with the minimum sum.
 
 */
 
-const { Route53RecoveryCluster } = require("aws-sdk");
-
 class TreeNode {
     constructor(val = 0, left = null, right = null) {
         this.val = val;
