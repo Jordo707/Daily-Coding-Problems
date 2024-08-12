@@ -8,7 +8,6 @@ For example, given words "hello", and "world" and a text content of "dog cat hel
 
 const wordDistance = (start, end, context) => {
     const words = context.split(" ");
-    console.log(words);
     let minDistance = Infinity;
     let prevIndex = -1;
 
