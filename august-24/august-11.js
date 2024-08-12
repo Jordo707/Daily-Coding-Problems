@@ -25,6 +25,6 @@ const wordDistance = (start, end, context) => {
 
 // Test Case
 console.log(wordDistance('hello', 'world', 'dog cat hello cat dog dog hello cat world')); // Expect 1
-console.log(wordDistance('the', 'big', 'the quick gray fox jumped over the lazy frog')); // Expect 0
+console.log(wordDistance('the', 'frog', 'the quick gray fox jumped over the lazy frog')); // Expect 1
 console.log(wordDistance('she', 'shore', 'she sells sea shells by the sea shore')) // Expect 6
 console.log(wordDistance('she', 'shore', 'she sells sea shells by the sea shore she sells sea shells by the sea shore')) // Expect 0
