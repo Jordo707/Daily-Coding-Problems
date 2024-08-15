@@ -20,3 +20,4 @@ const smallestSquareSum = n => {
 // Test Case
 console.log(smallestSquareSum(27)); // 3
 console.log(smallestSquareSum(13)); // 2
+console.log(smallestSquareSum(105)); // 3
